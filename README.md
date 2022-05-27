@@ -2,7 +2,8 @@
 
 This code and data is presented for my Honours dissertation "Modelling COVID-19 Transmission in Western Australia" for the Applied Mathematics department at UWA, 2022.
 
-Abstract:
+## Abstract:
+
 This thesis explores techniques for modelling the regional transmission of the Omicron variant of COVID-19 in Western Australia. We create a compartmental model where each individual in the population is assigned to one of seven possible compartments (four Susceptible compartments for each vaccination level, and an Exposed, an Infected, and a Removed compartment). We estimate the parameters for this model based on the literature, real vaccination numbers, and fitted parameters based on outbreaks seen in South Australia and Western Australia. We define an effective reproduction number based on this model, which can be used to estimate the spread of the virus under different conditions and different parameters. As we are modelling real world events, our model has been constantly adapted depending on the changing COVID-19 landscape in Western Australia over the past twelve months.
 
 This compartmental model is implemented for 44 towns distributed across Western Australia, with a transport network characterising movement between towns. Our transport network is created from the Google Aggregated Mobility Research Dataset (GAMRD). We use the transport network to better understand how an outbreak can spread around the state of Western Australia, and which towns are more susceptible to an outbreak that begins in Perth.
